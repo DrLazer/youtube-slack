@@ -2,7 +2,9 @@ import React from 'react'
 
 function Info() {
   return (
-    <div></div>
+    <div className=' bg-stone-300'>
+      Info
+    </div>
   )
 }
 

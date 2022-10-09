@@ -36,14 +36,26 @@ module.exports = {
 
 ```
 
+## install heroicons
+1. run `npm i @heroicons/react`
+
+## add assets
+1. create folder `assets`
+2. download assets from 'https://youtube-slack.s3.eu-west-1.amazonaws.com/assets.zip'
+3. Unzip assets and drop into `assets` folder
+
 ## create structure
 1. create `components` folder
 2. create structural companents
 ```
-Header
-Banner
-Slogan
-Info
-Stats
-DeepDive
-Footer
+Header.js
+Banner.js
+Slogan.js
+Info.js
+Stats.js
+DeepDive.js
+Footer.js
+```
+
+### Header
+

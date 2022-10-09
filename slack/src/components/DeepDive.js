@@ -2,7 +2,9 @@ import React from 'react'
 
 function DeepDive() {
   return (
-    <div></div>
+    <div className='bg-stone-300'>
+      deep dive
+    </div>
   )
 }
 
