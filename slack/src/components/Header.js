@@ -30,7 +30,7 @@ const extraLinks = [{
 
 function Header() {
   return (
-    <div className='flex items-center justify-between bg-fuchsia-900 px-4 h-16'>
+    <div className='flex items-center justify-between bg-fuchsia-900 px-11 h-20'>
       <div className='flex'>
         <img src={SlackLogo} className='h-6 w-28' alt='Slack logo'/>
         <div className='pl-6 hidden lg:block'>
