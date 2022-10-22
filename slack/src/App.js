@@ -8,10 +8,14 @@ import DeepDive from "./components/DeepDive";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Banner />
-    </>
+    <div className="m-auto margin: auto max-w-[1400px]">
+      <div className="max-w-7xl">
+        <Header />
+        <Banner />
+        <Slogan />
+      </div>
+    </div>
+    
     
   );
 }

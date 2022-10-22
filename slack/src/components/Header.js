@@ -47,11 +47,11 @@ function Header() {
         <MagnifyingGlassIcon className="h-6 w-6 text-white" />
         <ul className='flex items-center text-white font-semibold'>
           {
-            extraLinks.map((extraLink) => {
+            extraLinks.map((extraLink, index) => {
               if (extraLink.type === 'link') {
-                return <li className={extraLink.classes}>{extraLink.text}</li>
+                return <li key={index} className={extraLink.classes}>{extraLink.text}</li>
               } else if (extraLink.type === 'button') {
-                return <li><Button classes={extraLink.classes} theme={extraLink.theme}>{extraLink.text}</Button></li>
+                return <li key={index}><Button classes={extraLink.classes} theme={extraLink.theme}>{extraLink.text}</Button></li>
               } else {
                 return null;
               }
