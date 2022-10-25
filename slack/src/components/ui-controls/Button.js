@@ -5,13 +5,14 @@ function Button(props) {
   const { children, theme, classes, size } = props;
   return (
     <button className={`
-        border border-opacity-80 lg:mr-2
+        border border-opacity-80 lg:mr-4
         
         ${!size ? 'p-2' : ''}
         ${size === 'large' && theme !== 'google' ? 'p-4' : ''}
         ${size === 'large' && theme === 'google' ? 'p-1 pr-4' : ''}
 
         ${!theme ? 'bg-white text-fuchsia-900' : ''}
+        ${theme && theme === 'light' ? 'bg-white text-fuchsia-900' : ''}
         ${theme && theme === 'dark' ? 'bg-fuchsia-900 text-white' : ''}
         ${theme && theme === 'google' ? 'bg-blue-500 text-white border-blue-500' : ''}
 

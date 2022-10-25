@@ -3,7 +3,7 @@ import Button from './ui-controls/Button'
 
 function Slogan() {
   return (
-    <div className='flex flex-col bg-fuchsia-900 pl-11 pb-10 md:flex-row md:overflow-hidden'>
+    <div className='flex flex-col bg-fuchsia-900 pl-11 pb-10 md:flex-row md:overflow-clip'>
       <div className='w-[650px] min-w-[650px]'>
         <div className='pt-12'>
           <h1 className='text-white text-6xl font-bold'>
