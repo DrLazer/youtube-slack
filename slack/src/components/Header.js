@@ -31,9 +31,9 @@ const extraLinks = [{
 function Header() {
   return (
     <div className="bg-fuchsia-900">
-      <div className='m-auto margin: auto flex items-center justify-between bg-fuchsia-900 px-10 h-20 max-w-[1400px]'>
+      <div className='m-auto margin: auto flex items-center justify-between bg-fuchsia-900 px-10 h-20 max-w-[1230px]'>
         <div className='flex'>
-          <img src={SlackLogo} className='h-6 w-28' alt='Slack logo'/>
+          <img src={SlackLogo} className='h-8 w-28' alt='Slack logo'/>
           <div className='pl-6 hidden lg:block'>
             <ul className='flex text-white font-semibold'>
             {
